@@ -1,0 +1,42 @@
+#display{
+  background-color:  rgb(154, 152, 152);
+    width: 100%;
+    color: azure;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+  box-sizing: border-box;
+   border-radius:15px ;
+
+}
+#btn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    box-sizing: border-box;
+  
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(183, 183, 183);
+    font-size: 3em;
+    font-weight: 100;
+}
+
+
+#cal{
+    background-color: rgb(135, 135, 136);
+    border-radius: 15px;
+    width: 400px;
+}
+body{
+    display:flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: gray;
+}
